@@ -28,7 +28,8 @@ namespace KatalogProduk.Data
                 Console.WriteLine("--> Seeding Data...");
                 context.Categories.AddRange(
                     new Category { Name = "Pria"},
-                    new Category { Name = "Wanita" }
+                    new Category { Name = "Wanita" },
+                    new Category { Name ="Anak-Anak"}
                 );
                 context.SaveChanges();
             }
